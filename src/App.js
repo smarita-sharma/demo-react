@@ -1,5 +1,6 @@
 import React from 'react';
-import { Table,Col} from "react-bootstrap";
+//import { Table,Col} from "react-bootstrap";
+import FormBuilderHeader from './FormBuilderHeader';
 
 
 class App extends React.Component{
@@ -23,34 +24,21 @@ class App extends React.Component{
       }
 
   render() {
-       if(this.state && this.state.patients) {
-           const pat = this.state.patients;
-           console.log(this.state.patients.results);
+      console.log('hello')
 
         return(
+            <div>
+                <div><FormBuilderHeader /></div>
+                <div className="container-content">
+                    <div className="container-main form-list">
+                        <h2 className="header-title">Tag List</h2>
+                    </div>
+                </div>
 
-            <Table>
-                <thead>
-                <tr>
-                    <Col xs={3} md={2}><h2>Tag name</h2></Col>
-                    <Col xs={3} md={2}><h2>Patient UUID</h2></Col>
-                </tr>
-                </thead>
-                <body>
-                {pat.results.map((item, index) =>
-                <div key={index}>
-                    <tr key={index}>
-                        <Col lg={6} md={8}>{item.display}</Col>
-                       <Col lg={6} md={8}>{item.uuid}</Col>
-                   </tr>
-               </div>)}</body>
-            </Table>
+            </div>
             )
        }
-       else{
-           return(<p>loading...</p>)
-       }
-  }
+
 }
 
 
