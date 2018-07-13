@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d51dd42-a7a1-448f-87bf-ec8ec763a0f0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_home.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_bahmniGlobal.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_breadcrumb.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_canvas.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_commonIndex.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_controlList.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_form.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_formList.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_loader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_mixin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_normalize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_notification.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_popUp.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/common/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-bold-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-bold-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-bold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-italic-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-italic-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-italic-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-italic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-light-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-light-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-light-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-regular-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-semibold-webfont-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-semibold-webfont-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts/opensans-semibold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/images/spinner.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,18 +36,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -164,19 +106,6 @@
               <item name="patienttag" type="b2602c69:ProjectViewProjectNode" />
               <item name="patienttag" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patienttag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patienttag" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patienttag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patienttag" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,16 +202,15 @@
       <workItem from="1531077778050" duration="15672000" />
       <workItem from="1531141815310" duration="6045000" />
       <workItem from="1531154146636" duration="45185000" />
-      <workItem from="1531385126916" duration="17184000" />
+      <workItem from="1531385126916" duration="17810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85721000" />
+    <option name="totallyTimeSpent" value="86347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
