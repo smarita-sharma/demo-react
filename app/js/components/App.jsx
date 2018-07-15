@@ -1,6 +1,6 @@
 import React from 'react';
 //import { Table,Col} from "react-bootstrap";
-import FormBuilderHeader from './FormBuilderHeader';
+import FormBuilderHeader from 'FormBuilderHeader/FormBuilderHeader';
 
 
 class App extends React.Component{
@@ -8,7 +8,7 @@ class App extends React.Component{
    constructor(){
     super();
 
-    this.state = {patients:''};
+    //this.state = {patients:''};
    }
 
   componentDidMount() {

@@ -1,12 +1,12 @@
 {
     "version": "1.0",
-    "name": "Patient Tag module",
+    "name": "Patient-tagging",
     "description": " ",
-    "launch_path": "public/index.html",
+    "launch_path": "index.html",
     "icons": {
-        "16": "/img/icons/openmrs-logo.png",
-        "48": "/img/icons/openmrs-logo.png",
-        "128": "/img/icons/openmrs-logo.png"
+        "16": "/img/omrs-button.png",
+        "48": "/img/omrs-button.png",
+        "128": "/img/omrs-button.png"
     },
     "developer": {
         "name": "Smarita Sharma",
