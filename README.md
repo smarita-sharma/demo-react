@@ -45,7 +45,7 @@ that looks like:
 
 ```js
 {
-  "LOCAL_OWA_FOLDER": "/home/isurangaperera/openmrs/platform/owa"
+  "LOCAL_OWA_FOLDER": "/home/smarita/openmrs/platform/owa"
 }
 ```
 
