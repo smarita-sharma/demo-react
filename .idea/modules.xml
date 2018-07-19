@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/sass-app.iml" filepath="$PROJECT_DIR$/.idea/sass-app.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/patienttag.iml" filepath="$PROJECT_DIR$/.idea/patienttag.iml" />
+>>>>>>> 600e54226add229265065eb11f1c8c9654999e2c
     </modules>
   </component>
 </project>
