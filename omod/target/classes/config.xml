@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module configVersion="1.2">
+	
+	<!-- Base Module Properties -->
+	<id>tag</id>
+	<name>Tag</name>
+	<version>1.0-SNAPSHOT</version>
+	<package>org.openmrs.tag</package>
+	<author>jtatia</author>
+	<description>
+			generic mechanism that allows users to annotate domain objects with text labels
+	</description>
+
+	<activator>org.openmrs.tag.TagActivator</activator>
+	
+	<!-- /Base Module Properties -->
+	
+	<require_version>1.11.5</require_version>
+
+	<require_modules>
+		<require_module version="2.4">
+			org.openmrs.module.appframework
+		</require_module>
+		<require_module version="3.4">
+			org.openmrs.module.uiframework
+		</require_module>
+		<require_module version="1.7">
+			org.openmrs.module.uicommons
+		</require_module>
+		<require_module version="1.4">
+			org.openmrs.module.appui
+		</require_module>
+		<require_module version="2.14">
+			org.openmrs.module.webservices.rest
+		</require_module>
+	</require_modules>
+	
+
+	<mappingFiles>
+		Tag.hbm.xml
+	</mappingFiles>
+
+	<privilege>
+		<name>Manage Tags</name>
+		<description>Allows users to add,edit,view and remove tags from an object</description>
+	</privilege>
+	<privilege>
+		<name>Get Tags</name>
+		<description>Allows users to view tags</description>
+	</privilege>
+	<privilege>
+		<name>View Objects</name>
+		<description>Allows users to view objects, with given tag</description>
+	</privilege>
+
+
+	<!-- Internationalization -->
+	<messages>
+		<lang>en</lang>
+		<file>messages.properties</file>
+	</messages>
+	<messages>
+		<lang>fr</lang>
+		<file>messages_fr.properties</file>
+	</messages>
+	<messages>
+		<lang>es</lang>
+		<file>messages_es.properties</file>
+	</messages>
+	<!-- /Internationalization -->
+	
+</module>
+

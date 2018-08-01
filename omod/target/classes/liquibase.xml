@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+ 
+    <!--
+    	See http://wiki.openmrs.org/display/docs/Module+liquibase+File for 
+    	documentation on this file.
+    
+        See http://www.liquibase.org/manual/home#available_database_refactorings
+        for a list of supported elements and attributes
+    -->
+    <changeSet id="tag-2017-06-02-12-22" author="jtatia">
+        <preConditions onFail="MARK_RAN">
+            <not><tableExists tableName="tag_tag"/></not>
+        </preConditions>
+        <comment>
+            Creating the Tag table
+        </comment>
+        <createTable tableName="tag_tag">
+            <column name="tag_id" type="int" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false" unique="true"/>
+            </column>
+            <column name="tag" type="varchar(50)">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="object_uuid" type="char(38)">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="object_type" type="varchar(255)">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="creator" type="int">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="date_created" type="DATETIME">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="uuid" type="char(38)">
+                <constraints nullable="false" unique="true"></constraints>
+            </column>
+        </createTable>
+        <addForeignKeyConstraint constraintName="tag_owner_fk" baseTableName="tag_tag" baseColumnNames="creator" referencedTableName="users"
+                                 referencedColumnNames="user_id" />
+    </changeSet>
+
+    <changeSet id="tag-2017-06-10-10-11" author="jtatia">
+        <createIndex tableName="tag_tag" indexName="tag_name">
+            <column name="tag"></column>
+        </createIndex>
+    </changeSet>
+    <changeSet id="tag-2017-06-10-12-12" author="jtatia">
+        <createIndex tableName="tag_tag" indexName="object_type">
+            <column name="object_type"></column>
+        </createIndex>
+    </changeSet>
+</databaseChangeLog>

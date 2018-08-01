@@ -1,0 +1,8 @@
+/home/smarita/Documents/openmrs-module-tag/api/src/main/java/org/openmrs/tag/validator/TagValidator.java
+/home/smarita/Documents/openmrs-module-tag/api/src/main/java/org/openmrs/tag/api/db/hibernate/HibernateTagDao.java
+/home/smarita/Documents/openmrs-module-tag/api/src/main/java/org/openmrs/tag/api/impl/TagServiceImpl.java
+/home/smarita/Documents/openmrs-module-tag/api/src/main/java/org/openmrs/tag/Tag.java
+/home/smarita/Documents/openmrs-module-tag/api/src/main/java/org/openmrs/tag/TagActivator.java
+/home/smarita/Documents/openmrs-module-tag/api/src/main/java/org/openmrs/tag/api/db/TagDAO.java
+/home/smarita/Documents/openmrs-module-tag/api/src/main/java/org/openmrs/tag/api/TagService.java
+/home/smarita/Documents/openmrs-module-tag/api/src/main/java/org/openmrs/tag/TagConstants.java

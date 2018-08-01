@@ -1,0 +1,8 @@
+org/openmrs/tag/Tag.class
+org/openmrs/tag/api/db/TagDAO.class
+org/openmrs/tag/api/TagService.class
+org/openmrs/tag/validator/TagValidator.class
+org/openmrs/tag/api/db/hibernate/HibernateTagDao.class
+org/openmrs/tag/TagActivator.class
+org/openmrs/tag/api/impl/TagServiceImpl.class
+org/openmrs/tag/TagConstants.class
